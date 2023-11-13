@@ -13,8 +13,4 @@ interface ApiInterface {
     fun getData(@Query("q") query: String) :  retrofit2.Call<MyData>
 
 
-
-
-
-
 }

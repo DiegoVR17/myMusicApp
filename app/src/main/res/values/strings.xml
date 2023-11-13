@@ -1,4 +1,9 @@
 <resources>
     <string name="app_name">MyMusicApp</string>
     <string name="nameSinger">Cantante</string>
+    <string name="helper_text">*Campo Obligatorio</string>
+    <string name="singerName">Digite el nombre del artista</string>
+    <string name="searchSongs">Buscar</string>
+    <string name="nameAlbum">Album</string>
+    <string name="nameTrack">TrackList</string>
 </resources>

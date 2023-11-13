@@ -2,6 +2,14 @@
     <!-- Base application theme. -->
     <style name="Base.Theme.MyMusicApp" parent="Theme.Material3.DayNight.NoActionBar">
         <!-- Customize your dark theme here. -->
-        <!-- <item name="colorPrimary">@color/my_dark_primary</item> -->
+        <item name="colorPrimary">@color/GreenU1</item> -->
+    </style>
+
+    <style name="Theme.APISplashScreen" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">@color/whitesmoke</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/microfono</item>
+        <item name="windowSplashScreenAnimationDuration">2000</item>
+        <item name="postSplashScreenTheme">@style/Base.Theme.MyMusicApp</item>
+        <item name="splashScreenIconSize">1dp</item>
     </style>
 </resources>

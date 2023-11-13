@@ -2,6 +2,7 @@ package com.example.mymusicapp
 
 
 import com.google.gson.annotations.SerializedName
+import java.io.Serializable
 
 data class Data(
     @SerializedName("album")
@@ -36,4 +37,4 @@ data class Data(
     val titleVersion: String,
     @SerializedName("type")
     val type: String
-)
+) : Serializable
